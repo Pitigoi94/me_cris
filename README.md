@@ -1,4 +1,3 @@
-Python pe Github.
-# cristian.github.io
+Main page
 
 
