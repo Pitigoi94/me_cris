@@ -1,0 +1,2 @@
+In the following I will show you how I used the Arduino IDE to upload some test programs, but first a few steps are required:
+1. Download Arduino IDE from the official website and after you install it, open it and copy this https://espressif.github.io/arduino-esp32/package_esp32_index.json to the place indicated in the picture.
