@@ -1,9 +1,12 @@
 In the following I will show you how I used the Arduino IDE to upload some test programs, but first a few steps are required:
   1. Download Arduino IDE from the official website and after you install it, open it and copy this as a text "https://espressif.github.io/arduino-esp32/package_esp32_index.json" to the place indicated in the pictures below.
+
 ![elecrow demo 1](https://github.com/user-attachments/assets/ce6e1e25-dc76-400d-bfe3-da6ea3221cd0)
 ![elecrow demo 2](https://github.com/user-attachments/assets/274b670d-225f-4261-8473-63b3a5ec561e)
+
   2. Usually, you will see Arduino Uno on the boards, but we don't use that, so we need to look for our board:
 ![elecrow demo 3](https://github.com/user-attachments/assets/fad51f72-f86b-4da1-b163-827d6188f90a)
+
 Now we can continue.
 
 **Push button test**
@@ -46,6 +49,7 @@ void loop() {
 And you can find a video on my YouTube channel: https://youtu.be/RAy8XQdcTJ0
 
 **Buzzer test**
+
 A slightly more "dynamic" program is this one through which the small built-in buzzer is put into operation:
 
 <pre>
