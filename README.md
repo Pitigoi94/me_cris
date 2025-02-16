@@ -1,9 +1,86 @@
-**CrowPanel -ESP32 Display-1.28(R)**
+In the following I will show you how I used the Arduino IDE to upload some test programs, but first a few steps are required:
 
-The first device I got from Elecrow.com is a round, 1.28-inch display that features a touch screen. You will find it under the product name: CrowPanel -ESP32 Display-1.28(R) inch 240*240 Round IPS Display Capacitive Touch SPI Screen
-https://www.elecrow.com/crowpanel-esp32-display-1-28-r-inch-240-240-round-ips-display-capacitive-touch-spi-screen.html?idd=5
+1. Download Arduino IDE from the official website and after you install it, open it and copy this as a text "https://espressif.github.io/arduino-esp32/package_esp32_index.json" to the place indicated in the pictures below.
 
-![image](https://github.com/user-attachments/assets/0d2b1297-5bd4-4a17-a045-b06e1ebaae69)
+![image](https://github.com/user-attachments/assets/602fba1a-a10b-4bfd-8389-20bdc81d6ad4)
+![image](https://github.com/user-attachments/assets/d8a75912-b197-4527-9f24-0dfa15df4c50)
 
 
+2. Usually, you will see Arduino Uno on the boards, but we don't use that, so we need to look for our board: 
 
+![image](https://github.com/user-attachments/assets/4586cb34-e1a1-4fcc-8cb7-e415ae6a5bf6)
+
+
+Now we can continue.
+
+**Push button test**
+
+The first program tested is one that shows a message in the Serial Monitor when we press the push button on the board:
+
+<pre>
+  <code>  
+// Define the pin number for the button
+const int buttonPin = 1;  // The pin number where the button is connected
+
+// Variable to store the current state of the button
+int buttonState = 0;  // Variable to hold the button's state, initially set to HIGH (0)
+
+void setup() {
+  Serial.begin(115200);  // Initialize serial communication at a baud rate of 115200
+  pinMode(buttonPin, INPUT);  // Set the button pin as an input
+}
+
+void loop() {
+  // Read the current state of the button (HIGH or LOW)
+  buttonState = digitalRead(buttonPin);
+
+  // If the button is pressed (connected to ground, state is LOW)
+  if (buttonState == LOW) {
+    Serial.println("Button Press");  // Print a message when the button is pressed
+  }
+  // If the button is not pressed, it is in the release state (HIGH)
+  else {
+    Serial.println("Button release");  // Print a message when the button is released
+  }
+
+  // Note: This loop will continuously read the button state and print messages.
+  // This may not be the desired behavior in all applications.
+  // Consider adding a delay or using a debouncing method for the button.
+}
+  </code>
+</pre>
+  
+And you can find a video on my YouTube channel: https://youtu.be/RAy8XQdcTJ0
+
+**Buzzer test**
+
+A slightly more "dynamic" program is this one through which the small built-in buzzer is put into operation:
+
+<pre>
+  <code>  
+// Define the pin number for the buzzer
+#define BUZZER 3
+
+void setup() {
+  // This code runs once at the beginning of the program:
+  pinMode(BUZZER, OUTPUT);  // Set the buzzer pin as an output
+  digitalWrite(BUZZER, LOW);  // Initially set the buzzer to a low state (off)
+}
+
+void loop() {
+  // This code runs repeatedly after the setup():
+  tone(BUZZER, 100);  // Make the buzzer produce a tone at a frequency of 100 Hz
+  delay(1000);  // Wait for one second
+  tone(BUZZER, 0);  // Stop the buzzer from producing sound (frequency set to 0)
+  delay(1000);  // Wait for another second
+}
+  </code>
+</pre>  
+
+And you can find a video on my YouTube channel: https://youtu.be/oS1XGoXtpOA
+
+To see even more tutorials, I suggest you access the links from the manufacturer of this device:
+
+• https://www.elecrow.com/wiki/CrowPanel_ESP32_1.28-inch_Round_Display.html
+
+• https://www.elecrow.com/wiki/ESP32_1.28-inch_Round_Display_Tutorial.html#tutorial-on-arduino-ide
