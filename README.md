@@ -1,6 +1,6 @@
 **Helle everyone!**
 
-After receiving the package some time ago, I also took care to make a short video of the first start-up of CrowPanel-ESP32 Display-1.28(R) inch. What you will see is "how the device looks", which as you can see also contains a pre-installed program. Check my Youtube video.
+After receiving the package some time ago, I also took care to make a short video of the first start-up of CrowPanel-ESP32 Display-1.28(R) inch. What you will see is "how the device looks", which as you can see also contains a pre-installed program. Check my Youtube <a href="https://www.youtube.com/watch?v=4wRL6HiIn6s&list=PLT_xFb7a1cCRTf1JrBZyVZF9wJDegHMvT&index=2&pp=gAQBiAQBsAQB">video</a>.
 
 ![20250201_113030](https://github.com/user-attachments/assets/cf20b628-f7ef-46a7-aecb-c99374f110b7)
 
