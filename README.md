@@ -1,4 +1,4 @@
-In the following I will show you how I used the Arduino IDE to upload some test programs, but first a few steps are required:
+In what follows, I'll show you how I used the Arduino IDE to upload some test programs to the CrowPanel ESP32 1.28-inch Round Display, so stay tuned, but first a few steps are required. I assume you have used Arduino IDE before, if not, then google Arduino IDE and download the program.
 
 1. Download Arduino IDE from the official website and after you install it, open it and copy this as a text "https://espressif.github.io/arduino-esp32/package_esp32_index.json" to the place indicated in the pictures below.
 
@@ -84,3 +84,5 @@ To see even more tutorials, I suggest you access the links from the manufacturer
 • https://www.elecrow.com/wiki/CrowPanel_ESP32_1.28-inch_Round_Display.html
 
 • https://www.elecrow.com/wiki/ESP32_1.28-inch_Round_Display_Tutorial.html#tutorial-on-arduino-ide
+
+I have tested almost all the sketches, the procedure is the same, what I have left is the program for the encoder, it is a small component assembled on a PCB and requires a tool like the one for the SIM card in phones, but I don't have a suitable one and I haven't been able to rotate it.
