@@ -34,33 +34,33 @@ I suggest you create an account on their website because after you install the p
 
 If you have successfully installed the tool, when you open it you will be at this point where:
 
-• we are creating a new project;
+  • we are creating a new project;
 
-• we are working in the Arduino IDE, so you will select this;
+  • we are working in the Arduino IDE, so you will select this;
 
-• we are using the Lvgl v8.3 library;
+  • we are using the Lvgl v8.3 library;
 
-• we are also using the TFT_eSPI library (https://docs.arduino.cc/libraries/tft_espi/#Releases).
+  • we are also using the TFT_eSPI library (https://docs.arduino.cc/libraries/tft_espi/#Releases).
 
 ![Untitled 3](https://github.com/user-attachments/assets/05c8f148-b7f1-4397-b382-a961adfd1714)
 
 On the right side we have:
 
-• Project Description, I wrote the name of the Arduino sketch;
+  • Project Description, I wrote the name of the Arduino sketch;
 
-• Project name;
+  • Project name;
 
-• very important, enter the path to the directory, in this case it is the one called "square line files";
+  • very important, enter the path to the directory, in this case it is the one called "square line files";
 
-• Resolution;
+  • Resolution;
 
-• Shape;
+  • Shape;
 
-• Color depth;
+  • Color depth;
 
-• LVGL version;
+  • LVGL version;
 
-• and finally click on Create button.
+  • and finally click on Create button.
 
 And voila:
 
@@ -72,11 +72,11 @@ It wasn't that hard, was it? But we still have a few settings to make.
 
 Go to File → Project Settings and in this window check the properties, then in the "File Export" area:
 
-• "Project Export Root" is the previous path, in my case to the "square line files" directory;
+  • "Project Export Root" is the previous path, in my case to the "square line files" directory;
 
-• "UI Files Export Path" is the path to the other directory, in my case it's "ui files";
+  • "UI Files Export Path" is the path to the other directory, in my case it's "ui files";
 
-• "LVGL Include Path" actually refers to saving some data in a file, optionally named "lvgl.h" .
+  • "LVGL Include Path" actually refers to saving some data in a file, optionally named "lvgl.h" .
 
 
 ![Untitled 6](https://github.com/user-attachments/assets/1241c712-007e-4ebc-b179-4b8bc6284655) 
@@ -91,6 +91,9 @@ Next, I clicked Widgets → Basic → Text Area and inserted some text into the 
 ![Untitled 8](https://github.com/user-attachments/assets/28a459a0-f310-424f-bcb6-019d17054f1b) 
 
 When you are ready click on Export → Export UI Files which automatically saves the files in your Arduino sketch directory, in my case it is the directory called "ui files".
+
+![Untitled 9](https://github.com/user-attachments/assets/a3102e31-e980-4866-9f09-a36e440de48b)
+
 What do you think, do you like it? What would you create?
 Well, we will continue soon. 😉
 
