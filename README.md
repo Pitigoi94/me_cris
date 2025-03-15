@@ -1,11 +1,13 @@
 **Today we are taking our first steps with LVGL and SquareLine Studio.**
 
 Last time I started CrowPanel ESP32 C3 and using Arduino IDE 2.3.4 I ran some basic sketches. Let's move on because this CrowPanel can offer us more.
+
 Let's start with:
-1. set-up our basic needs together with Arduino;
-2. install LVGL library for Arduino IDE;
-3. install SquareLine Studio graphics designed tool;
-4. first instructions in SquareLine Studio.
+1. Set-up our basic needs together with Arduino;
+2. Install LVGL library for Arduino IDE;
+3. Install SquareLine Studio graphics designed tool;
+4. First instructions in SquareLine Studio.
+
 
 1. The first step is to gather some files in the same directory, and for this please download the ESP32_1.28_Arduino_Demo archive (https://www.elecrow.com/wiki/CrowPanel_ESP32_1.28-inch_Round_Display.html), if you haven't done so yet.
 Next go to Examples → LvglWidgets and copy the header and cpp files (CST816D).
