@@ -3,9 +3,13 @@
 Last time I started CrowPanel ESP32 C3 and using Arduino IDE 2.3.4 I ran some basic sketches. Let's move on because this CrowPanel can offer us more.
 
 Let's start with:
+
 1 Set-up our basic needs together with Arduino;
+
 2 Install LVGL library for Arduino IDE;
+
 3 Install SquareLine Studio graphics designed tool;
+
 4 First instructions in SquareLine Studio.
 
 
