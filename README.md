@@ -33,22 +33,35 @@ I suggest you create an account on their website because after you install the p
 ![Untitled 1](https://github.com/user-attachments/assets/cc710b9b-ebde-455f-9643-9474d3b75751)
 
 If you have successfully installed the tool, when you open it you will be at this point where:
+
 • we are creating a new project;
+
 • we are working in the Arduino IDE, so you will select this;
+
 • we are using the Lvgl v8.3 library;
+
 • we are also using the TFT_eSPI library (https://docs.arduino.cc/libraries/tft_espi/#Releases).
 
 ![Untitled 3](https://github.com/user-attachments/assets/05c8f148-b7f1-4397-b382-a961adfd1714)
 
 On the right side we have:
+
 • Project Description, I wrote the name of the Arduino sketch;
+
 • Project name;
+
 • very important, enter the path to the directory, in this case it is the one called "square line files";
+
 • Resolution;
+
 • Shape;
+
 • Color depth;
+
 • LVGL version;
+
 • and finally click on Create button.
+
 And voila:
 
 ![Untitled 4](https://github.com/user-attachments/assets/47f22907-5137-4c04-a244-364c071c2cfa) 
@@ -58,9 +71,13 @@ It wasn't that hard, was it? But we still have a few settings to make.
 ![Untitled 5](https://github.com/user-attachments/assets/bae0c8a2-e7bc-41ce-9847-38bde2270b02)
 
 Go to File → Project Settings and in this window check the properties, then in the "File Export" area:
+
 • "Project Export Root" is the previous path, in my case to the "square line files" directory;
+
 • "UI Files Export Path" is the path to the other directory, in my case it's "ui files";
+
 • "LVGL Include Path" actually refers to saving some data in a file, optionally named "lvgl.h" .
+
 
 ![Untitled 6](https://github.com/user-attachments/assets/1241c712-007e-4ebc-b179-4b8bc6284655) 
 
