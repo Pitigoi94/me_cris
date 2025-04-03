@@ -16,8 +16,11 @@ I will list just a few things:
 You will definitely find one that interests you.
 
 In the links below I provide more details and how to work with the CrowPanel -ESP32 Display-1.28(R) display.
+
 ☺ https://github.com/cris402/my-stuff/tree/First-Power-Up
+
 ☺ https://github.com/cris402/my-stuff/tree/Testing-using-Arduino-IDE
+
 ☺ https://github.com/cris402/my-stuff/tree/First-steps-with-LVGL-and-SquareLine-Studio
 
 
