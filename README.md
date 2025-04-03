@@ -6,13 +6,21 @@ The first device I got from Elecrow.com is a round, 1.28-inch display that featu
 https://www.elecrow.com/crowpanel-esp32-display-1-28-r-inch-240-240-round-ips-display-capacitive-touch-spi-screen.html?idd=5
 
 I will list just a few things:
+
  • Arduino IDE
+
  • Espressif IDF
+
  • L RTOS
+
  • Home Assitant
+
  • PlatoformIO
+
  • Micro Python
+
  • LVGL library
+
 You will definitely find one that interests you.
 
 In the links below I provide more details and how to work with the CrowPanel -ESP32 Display-1.28(R) display.
