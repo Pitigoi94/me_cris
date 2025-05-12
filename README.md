@@ -1,2 +1,2 @@
-Welcome to a newbie hobbyist hub! 🙂✌
+Here I show you some PCBs from me. 🙂✌
 
