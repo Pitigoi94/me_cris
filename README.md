@@ -9,4 +9,8 @@ You can access the link below to see how I worked.
 
 ☺ https://github.com/cris402/my-stuff/tree/CrowPanel-1.28''-Screen
 
+Also, If you decide to sign up, then enter this referral:
+
+https://www.elecrow.com/referral-program/NTA1NjlqMnQ/ 
+
 
