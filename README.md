@@ -3,7 +3,7 @@
 
 **Hello everyone!**
 
-From now on, I will present how I interacted with <a href="https://www.elecrow.com/">Elecrow</a> and what I have from this provider, and I will start with <a href="https://github.com/cris402/my-stuff/tree/CrowPanel-1.28''-Screen">CrowPanel ESP32 1.28-inch Round Display</a>.
+From now on, I will present how I interacted with Elecrow and what I have from this provider, and I will start with <a href="https://github.com/cris402/my-stuff/tree/CrowPanel-1.28''-Screen">CrowPanel ESP32 1.28-inch Round Display</a>.
 
 You can access the link below to see how I worked.
 
