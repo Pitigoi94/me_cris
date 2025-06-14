@@ -2,14 +2,14 @@ Hi everyone! 🙂
 
 Because I have a hobby of creating small, various circuits, I bought an ESP01S board to use for real-time monitoring of the temperature in the apartment, using a DHT22 and the Blynk application. But first I consulted google to figure out how I can program this MCU using the Arduino IDE. Therefore, I will not present you with anything unique at all, but there is information that you will also find on the internet.
 
-Add the ESP01S board to the Arduino IDE (if it doesn't already exist) by entering the link in the indicated field (Arduino IDE → File → Preferences):
+1. Add the ESP01S board to the Arduino IDE (if it doesn't already exist) by entering the link in the indicated field (Arduino IDE → File → Preferences):
 http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
 Put a comma (,) between the others, if there are others (this is my case). Now we have the path needed to install the board.
 
 ![image](https://github.com/user-attachments/assets/f13d4902-ce74-4188-8ee2-fdfd3cc63584)
 
-Open Tools → Board → Boards Manager and search for "ESP8266", then install the version created by ESP8266 Community.
+2. Open Tools → Board → Boards Manager and search for "ESP8266", then install the version created by ESP8266 Community.
 
 ![image](https://github.com/user-attachments/assets/6b331376-b036-4c7f-8b08-a8e8ce56592d)
 
