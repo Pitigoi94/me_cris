@@ -7,30 +7,34 @@ http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
 Put a comma (,) between the others, if there are others (this is my case). Now we have the path needed to install the board.
 
-image
+![image](https://github.com/user-attachments/assets/f13d4902-ce74-4188-8ee2-fdfd3cc63584)
 
 Open Tools → Board → Boards Manager and search for "ESP8266", then install the version created by ESP8266 Community.
-image
 
-image
+![image](https://github.com/user-attachments/assets/6b331376-b036-4c7f-8b08-a8e8ce56592d)
+
+![image](https://github.com/user-attachments/assets/2e054dcb-e185-4104-95b8-1c98fc0edd81)
 
 Now we need to know that there are differences between ESP01 and ESP01S.
 
-image https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.botnroll.com%2Fen%2Fwi-fi%2F5457-esp8266-serial-wifi-module-esp-01s.html&psig=AOvVaw3VPqO89z00mzzQ-GjHTMZI&ust=1749994442788000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCLCps8GD8Y0DFQAAAAAdAAAAABAE
+![image](https://github.com/user-attachments/assets/61f37a04-4e69-46be-900b-9a1773c92a0f)
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.botnroll.com%2Fen%2Fwi-fi%2F5457-esp8266-serial-wifi-module-esp-01s.html&psig=AOvVaw3VPqO89z00mzzQ-GjHTMZI&ust=1749994442788000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCLCps8GD8Y0DFQAAAAAdAAAAABAE
 
 The diagram below shows how to program the board using FTDI. Be careful, put the jumper on 3.3V at FTDI, the ESP01/01S board works at 3.3V.
 
-image https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.instructables.com%2FFTDI-ESP8266-Definitive-Wiring%2F&psig=AOvVaw3O8pTu-lbvlt2pClbHsHaq&ust=1749994602547000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCMiLhoqE8Y0DFQAAAAAdAAAAABAE
+![image](https://github.com/user-attachments/assets/5e677741-72c0-4af1-9b5e-e4e633ee9fea)
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.instructables.com%2FFTDI-ESP8266-Definitive-Wiring%2F&psig=AOvVaw3O8pTu-lbvlt2pClbHsHaq&ust=1749994602547000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCMiLhoqE8Y0DFQAAAAAdAAAAABAE
 
 My programmer:
 
-q2
+![q2](https://github.com/user-attachments/assets/ca6a252a-d7da-4429-8613-0ac33150a052)
 
-20250614_165827
+![20250614_165827](https://github.com/user-attachments/assets/69918532-a034-4be1-a529-a4abfc387532)
 
 Now, if everything is fine, all you have to do is open the "Blink" sketch and make the LED blink.
 
-  
+<pre>
+  <code>  
 //You can modifiy the next line if your board has the LED connected to another Pin
 #define LED 2 // onboard LED ESP-01S -> Pin 2
 
@@ -46,7 +50,9 @@ void loop() {
   digitalWrite(LED, LOW); // turn the LED off by making the voltage LOW
   delay(3000); // for 2 seconds
 }
-  
+  </code>
+</pre>  
+
 And here you can also see a short video. 👍
 
 https://youtube.com/shorts/QKwVWmvhdyg?feature=share
