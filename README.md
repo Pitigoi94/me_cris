@@ -16,7 +16,10 @@ And this is what I made at JLCPCB, let's call it DIY v2.
 ![20250614_151008](https://github.com/user-attachments/assets/835b063b-8744-4cd3-9670-4b788d973e88)
 
 A 31mm*30mm PCB (I didn't do a hard design in terms of dimensions), two layers, which was partially assembled by JLCPCB (that's what I wanted 😁). It works very well and looks much better than v1. 👌👏👏
+
 Check the video below.
 
 https://youtube.com/shorts/QKwVWmvhdyg?feature=share 
+
+#JLCPCB #JLCONE
 
