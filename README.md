@@ -29,6 +29,13 @@ The diagram below shows how to program the board using FTDI. Be careful, put the
 ![image](https://github.com/user-attachments/assets/efd118e6-d34c-4e83-a5a3-f5a5e14d37ed)
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.instructables.com%2FFTDI-ESP8266-Definitive-Wiring%2F&psig=AOvVaw3O8pTu-lbvlt2pClbHsHaq&ust=1749994602547000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCMiLhoqE8Y0DFQAAAAAdAAAAABAE
 
+My programmer:
+
+![q2](https://github.com/user-attachments/assets/fb04f0e2-f930-4383-99a2-7a8dc2dd2dd5) 
+
+![20250614_165827](https://github.com/user-attachments/assets/d30a9066-69c6-41f8-ac21-3c9427addfdf)
+
+
 Now, if everything is fine, all you have to do is open the "Blink" sketch and make the LED blink.
 
 <pre>
