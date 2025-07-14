@@ -32,18 +32,25 @@ The diagram below shows how to program the ESP01S using FTDI. Be careful, put th
 ![image](https://github.com/user-attachments/assets/5e677741-72c0-4af1-9b5e-e4e633ee9fea)
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.instructables.com%2FFTDI-ESP8266-Definitive-Wiring%2F&psig=AOvVaw3O8pTu-lbvlt2pClbHsHaq&ust=1749994602547000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCMiLhoqE8Y0DFQAAAAAdAAAAABAE
 
-Also for the ESP01 board:
-• FTDI serial converter:
-• RX -> TX
-• TX -> RX
-• Gnd -> Gnd
-• CHPD/EN -> 3.3V
-• VCC -> 3.3V
-• RST -> Button -> Gnd
-• GPIO 0 -> Gnd
+Also for the ESP01 board, if you will use a FTDI serial converter:
+
+• RX -> TX;
+
+• TX -> RX;
+
+• Gnd -> Gnd;
+
+• CHPD/EN -> 3.3V;
+
+• VCC -> 3.3V;
+
+• RST -> Button -> Gnd (it actually works with RST/DTR too); 
+
+• GPIO 0 -> Gnd;
+
 https://techtalkies.in/2024/02/05/programming-esp-01-in-different-ways/?i=1
 
-Don't forget that in the case of ESP01, after programming, you have to permanently connect CHPD/EN to 3V3. So just powering the board is not enough to make the program run.
+Don't forget that in the case of **ESP01, after programming, you have to permanently connect CHPD/EN to 3V3**. So just powering the board is not enough to make the program run.
 
 My programmer:
 
