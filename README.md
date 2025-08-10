@@ -3,13 +3,21 @@ Hello everyone!
 I made a small, slightly interactive application, I might add, "which with a gesture can change the fate of the galaxy". 😁
 The application is inspired by the Star Wars theme. I noticed in an online video from another maker how he used a buzzer in order to reproduce the imperial soundtrack from Star Wars movie, and another application with the classic opening sound. Thanks to the author for sharing them [https://github.com/robsoncouto/arduino-songs  ]. In addition to these, I added a panel with LED matrices, since we also have control, through the "power of the force". Although I would have liked to use 2 IR sensors, but I don't have them, so for example I use push buttons.
 List of components:
+
 • 1x 8x32 MAX7219 matrix panel;
+
 • 1x XIAO ESPre-C3;
+
 • 3x buzzers;
+
 • 3x push buttons;
+
 • 3x 10kΩ resistors;
+
 • 5V power suuply;
+
 • breadboard, wires and so on.
+
 Below you have a circuit diagram and also a block diagram [check your available components]:
 
 <img width="936" height="650" alt="image" src="https://github.com/user-attachments/assets/80f2979c-2139-4de5-9bc1-4b94141c98cf" />
@@ -17,29 +25,51 @@ Below you have a circuit diagram and also a block diagram [check your available 
 <img width="342" height="342" alt="Untitled Diagram drawio" src="https://github.com/user-attachments/assets/1046a7b0-4dbc-4a58-be48-a26c444c8f57" />
 
 • INPUTS:
+
 → 2 push buttons, #1 and #2;
+
 → 1 push button (#3), as a reset.
+
 • OUTPUTS:
+
 → 3 buzzers, #1 and #2 are for the imperial soundtrack, and #3 for the beginning one;
+
 → 1 matrix panel on which various messages can be displayed.
+
 • CORE:
+
 → in the middle of the application we have a Xiao ESP32-C3.
 
 The program seems a bit long, but it is not that difficult, as a pseudo code can be described like this:
+
 • in the "MSG_IDLE" state:
+
 → the matrix panel displays the message "May the Force be with you!";
+
 → the buzzers are off;
+
 → a command is expected through one of the two push buttons;
+
 • the "MSG_RED" state is triggered when:
+
 → I press button #1;
+
 → the matrix panel displays the message "I am your father!";
+
 → buzzer #3 will play the imperial soundtrack;
+
 → after the song ends, the buzzer stops and automatically returns to the "IDLE" state;
+
 • the "MSG_GREEN" state is triggered when:
+
 → I press button #2;
+
 → the matrix panel displays the message "XIAO from ESP32-C3 I am!";
+
 → buzzers #1 and #2 will play the opening soundtrack;
+
 → after the song ends, the buzzers stop and it automatically returns to the "MSG_IDLE" state.
+
 The push button acts as a RESET, whenever it is pressed the program is forced to return to the MSG_IDLE state.
 In fact, you can force the MSG_RED state to MSG_GREEN and vice versa at any time by pressing button #1 or #2.
 
