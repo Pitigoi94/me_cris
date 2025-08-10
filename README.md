@@ -1,3 +1,5 @@
-Welcome to a newbie hobbyist hub, feel free to explore it! 🙂✌
+Hello everyone!
+
+From now on, I will present how I interacted with Elecrow and what I have from this provider, and I will start with
 
 
