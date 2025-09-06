@@ -6,7 +6,7 @@ Below you will find the projects:
 
 https://github.com/cris402/my-stuff/tree/Expansion-board-for-DFRobot-Beetle-ESP32-C6 
 
-• ESP32-C6, DHT22, 0.91%22 OLED Display
+• ESP32-C6, DHT22, 0.91" OLED Display
 
 https://github.com/cris402/my-stuff/tree/ESP32-C6-DHT22-0.91%22-OLED-Display
 
