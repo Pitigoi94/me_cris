@@ -1,3 +1,5 @@
+Hello makers!
+
 This is the board from DFRobot called Beetle ESP32-C6, a real coin size board:
 
 
@@ -12,7 +14,7 @@ This is the board from DFRobot called Beetle ESP32-C6, a real coin size board:
 
 ![20250406_125355](https://github.com/user-attachments/assets/d2e450b3-999a-45ce-b3a3-ecac13aa1f37)
 
-More details can be found by accessing the links 😁:
+More details can be found by accessing the links:
 
 https://wiki.dfrobot.com/SKU_DFR1117_Beetle_ESP32_C6 
 
@@ -34,7 +36,7 @@ The PCB is single layer, 48*54mm in size and uses through hole components so it 
 
 ![20250513_182739](https://github.com/user-attachments/assets/decf5761-a0f6-4565-920f-ac44ba4fd21d)
 
-I also show you a small demonstration application, it's about displaying temperature and humidity using DHT22 and a 0.96" OLED display. The circuit is simple, DHT22 is connected to pin D7 and the display is on the I2C interface, so SDA and SCL, and you can find the program below. Customize it as you wish. 🤓
+I also show you a small demonstration application, it's about displaying temperature and humidity using DHT22 and a 0.96" OLED display. The circuit is simple, DHT22 is connected to pin D7 and the display is on the I2C interface, so we are using SDA and SCL signals, and you can find the program below. Customize it as you wish. 🤓
 
 ![20250513_184421](https://github.com/user-attachments/assets/d747b125-022e-4b65-bef4-bf65bd3acc0f)
 
@@ -100,6 +102,73 @@ void loop() {
   </code>
 </pre>
 
+I managed to build v2 of the sketch, there a few simple changes about how the temperature and humidity are displayed, as you can see below:
 
+![20250906_125054 program v2](https://github.com/user-attachments/assets/4daedc31-da8a-4adc-8621-58e38bde65fa)
+
+<pre>
+  <code>
+  /*
+  DF Robot ESP32-C6
+  DHT22
+  OLED 0.91"  
+  
+  Display the values as:
+  00.00 °C
+  00.00 %R
+*/
+
+#include <Arduino.h>
+#include <U8g2lib.h>  // Import font library
+#include <Wire.h>
+#include <DHT.h>
+
+U8G2_SSD1306_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, U8X8_PIN_NONE);
+
+#define DHTPIN 7         // Digital pin connected to the sensor
+#define DHTTYPE DHT22    // DHT 22 (AM2302)
+
+DHT dht(DHTPIN, DHTTYPE);
+
+// Variables for non-blocking timing using millis()
+unsigned long previousMillis = 0;
+const unsigned long interval = 1000;  // Update every 1 second
+
+void setup() {
+  Serial.begin(115200);
+  u8g2.begin();
+  u8g2.setFontPosTop();  // Set text positioning to the top
+  dht.begin();
+}
+
+void loop() {
+  unsigned long currentMillis = millis();
+  
+  // Check if it's time to update the display
+  if (currentMillis - previousMillis >= interval) {
+    previousMillis = currentMillis;
+    
+    // Read sensor values
+    float temp = dht.readTemperature();
+    float humi = dht.readHumidity();
+    
+    // Format readings into strings as "00.00°C" and "00.00%R"
+    // Insert the degree symbol explicitly as a single byte using '\xB0'
+    char tempStr[16];
+    char humiStr[16];
+    sprintf(tempStr, "%05.2f% cC", temp, '\xB0'); // add the ° sign next to the temperature value
+    sprintf(humiStr, "%05.2f% %R", humi); // add %R next to the humidity value
+    
+    // Update OLED display
+    u8g2.clearBuffer();
+    u8g2.setFont(u8g2_font_osb18_tf);   // Select a clear, large font
+    u8g2.drawStr(0, 10, tempStr);         // Display temperature on the first line
+    u8g2.drawStr(0, 40, humiStr);         // Display humidity on the second line
+    u8g2.sendBuffer();
+  }
+}
+
+  <code>
+<pre>
 
 
