@@ -9,9 +9,9 @@ We have another application with ESP32-C6, something common, but this time we us
 
 <pre>
   <code>
-  // https://wokwi.com/projects/289186888566178317
+  // Source: https://wokwi.com/projects/289186888566178317
 
-/*Display only temperature and humiditiy, alternating
+/* Display only temperature and humiditiy every 5 seconds
  * Use of ESP32-C6, MAX72XX, DTH22 components to 
  * print some information on the display.
  *
