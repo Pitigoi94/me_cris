@@ -2,9 +2,17 @@ A manufacturer on the market where I made a PCB is NextPCB, the requirements for
 
 Below you will find the projects:
 
-• Expansion board for DFRobot Beetle ESP32-C6 
+• PCB expansion board for DFRobot Beetle ESP32-C6 
 
 https://github.com/cris402/my-stuff/tree/Expansion-board-for-DFRobot-Beetle-ESP32-C6 
+
+• ESP32-C6, DHT22, 0.91%22 OLED Display
+
+https://github.com/cris402/my-stuff/tree/ESP32-C6-DHT22-0.91%22-OLED-Display
+
+• ESP32-C6, DHT22, MAX7219 Matrix Panel
+
+https://github.com/cris402/my-stuff/tree/ESP32-C6-DHT22-MAX7219-Matrix-Panel
 
 If you are interested then I will also give you an invitation link for a new customer, you should receive a bonus but I think it will differ depending on the country: 
 
