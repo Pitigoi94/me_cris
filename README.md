@@ -4,6 +4,7 @@
 So, I got another development board with ESP32 directly attached to a 2.8 inch TFT display. You can find more information about the Elecrow board by accessing the link [https://www.elecrow.com/2-8inch-esp32-miner-lcd-display-2pcs-cryptocurrency-solo-miner-with-1000kh-s-hashrate.html], plus it is presented much better than I could. 😁
 
 And now let's start to detail the situation a little. 🤓
+
 For start, there are a few things we need to go through to use this development board.
 
 1. I used Arduino IDE, but you can also use ESP-IDF or PlatformIO. [https://www.elecrow.com/pub/wiki/2-PACK-2.8inch-ESP32-Solo-Miner-LCD-Display-Cryptocurrency-Solo-Miner.html]
@@ -13,6 +14,7 @@ I am now using **Arduino IDE 2.3.6** and I need to install the **ESP32 v2.0.15**
 <img width="365" height="567" alt="image" src="https://github.com/user-attachments/assets/5296126f-b86e-4b60-9dce-400a7bfa2134" />
 
 I tried for hours but I couldn't program the board using another version. So we follow the instructions. [https://www.elecrow.com/wiki/ESP32_Miner_LCD-2.8_inch.html#example1-led-blinking]
+
 
 2. Let's move on to the software libraries, which are quite a few and we need to be careful how we install them.
 You can find them all here [https://github.com/Elecrow-RD/2-PACK-2.8inch-ESP32-Solo-Miner-LCD-Display/tree/master/libraries].
