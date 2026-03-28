@@ -2,6 +2,7 @@
 **Hello everyone!**
 
 So, I got another development board with ESP32 directly attached to a 2.8 inch TFT display. You can find more information about the Elecrow board by accessing the link [https://www.elecrow.com/2-8inch-esp32-miner-lcd-display-2pcs-cryptocurrency-solo-miner-with-1000kh-s-hashrate.html], plus it is presented much better than I could. 😁
+
 And now let's start to detail the situation a little. 🤓
 For start, there are a few things we need to go through to use this development board.
 
@@ -48,6 +49,7 @@ void loop() {
 Follow the instructions and links provided above, no need to repeat all the steps because Elecrow has done a pretty good job. 🙂
 
 Now, let's prepare for the next phase, which is installing the LVGL tool. Watch the video below, it's very helpful, it will introduce you to LVGL library and Square Line Studio.
+
 https://www.youtube.com/watch?v=LXoKEsqQGDk&list=PLwh4PlcPx2Gfrtm7TmlARyF4ccTmIy-gK&index=3&pp=iAQB
 
-That's all for today!
+That's all for today but will continue with the next tutorial!
