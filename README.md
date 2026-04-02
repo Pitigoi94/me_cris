@@ -1,7 +1,7 @@
 
 **Hello everyone!**
 
-We continue with the ESP32 2.8 inch display development board from Elecrow.
+We continue with the <a href="https://www.awin1.com/cread.php?awinmid=82721&awinaffid=2839164&ued=https%3A%2F%2Fwww.elecrow.com%2F2-8inch-esp32-miner-lcd-display-2pcs-cryptocurrency-solo-miner-with-1000kh-s-hashrate.html">ESP32</a> 2.8 inch display development board from <a href="https://www.elecrow.com/referral-program/NTA1NjlqMnQ/">Elecrow</a>.
 
 It is very important to watch this video, it's very helpful, it will introduce you to LVGL library and Square Line Studio.
 
