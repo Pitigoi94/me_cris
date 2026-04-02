@@ -1,7 +1,7 @@
 
 **Hello everyone!**
 
-So, I got another development board with ESP32 directly attached to a 2.8 inch TFT display. You can find more information about the Elecrow board by accessing the link [https://www.elecrow.com/2-8inch-esp32-miner-lcd-display-2pcs-cryptocurrency-solo-miner-with-1000kh-s-hashrate.html], plus it is presented much better than I could. 😁
+So, I got another development board with ESP32 directly attached to a 2.8 inch TFT display. You can find more information about the Elecrow board by accessing the link [<a href="https://www.awin1.com/cread.php?awinmid=82721&awinaffid=2839164&ued=https%3A%2F%2Fwww.elecrow.com%2F2-8inch-esp32-miner-lcd-display-2pcs-cryptocurrency-solo-miner-with-1000kh-s-hashrate.html">affiliate link</a>], plus it is presented much better than I could. 😁
 
 And now let's start to detail the situation a little. 🤓
 
