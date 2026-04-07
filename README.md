@@ -23,11 +23,14 @@ With this module we have the capability to monitor:
 
 I followed the Elecrow tutorial and I can say that I managed to create a starter project that I am making available to you. I am also attaching the project files from Square Line Studio, I think you will be able to import them and modify them yourself as you wish.
 
-For start, it is a minimalist monitor that displays 3 measurements, as you can see below, but it can be improved for example by adding a graph to show the evolution of the measurements. Also, various signaling components can be introduced, such as an LED or a buzzer.
+For start, it is a minimalist monitor that displays 3 measurements, as you can see below, but it can be improved for example by adding a graph to show the evolution of the measurements. Also, various signaling components can be introduced, such as an LED or a buzzer, you know what I mean. 🙂
 
 ![Pic2](https://github.com/user-attachments/assets/9cd83acf-0975-4786-8de1-edf56fd4471a)
 
 ![Pic1](https://github.com/user-attachments/assets/9a3cbc7a-609c-4674-bc38-e6688231da17)
 
+I also have a short video:
+
+https://youtube.com/shorts/2GSR0Psw_sA?feature=share
 
 That's all for today!
